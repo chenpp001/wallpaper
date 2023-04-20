@@ -1,0 +1,357 @@
+@mixin textoverflow() {
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}
+@keyframes rowup {
+	0% {
+		-webkit-transform: translate(-50%, -50%) rotate(0deg);
+		transform-origin: center center;
+	}
+
+	100% {
+		-webkit-transform: translate(-50%, -50%) rotate(360deg);
+		transform-origin: center center;
+	}
+}
+
+.imt-audio.theme1 {
+	padding: 0 30upx 30upx;
+	background: #fff;
+
+	.top {
+		& > view:nth-child(2) {
+			.title {
+				font-weight: bold;
+				font-size: 34rpx;
+				margin-top: 50rpx;
+				text-align: center;
+			}
+
+			.singer {
+				color: #999;
+				font-size: 26rpx;
+				margin-top: 10rpx;
+				text-align: center;
+				margin-bottom: 18rpx;
+			}
+		}
+	}
+
+	.audio-wrapper {
+		display: flex;
+		align-items: center;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.audio-button-box {
+		display: flex;
+		align-items: center;
+		margin: 40rpx auto 0;
+		justify-content: space-around;
+		height: 100rpx
+	}
+
+	.audio-number {
+		font-size: 24upx;
+		line-height: 1;
+		color: #333;
+	}
+
+	.audio-slider {
+		flex: 1;
+		margin: 0 30rpx 0 35rpx;
+	}
+
+	.audio-control-wrapper {
+		margin: 0rpx auto;
+		display: flex;
+		padding:40rpx 0px 0upx 0px;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
+
+	.cover {
+		width: 350rpx;
+		height: 350rpx;
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+		border-radius: 5px;
+	}
+	.playbox{
+		width: 100rpx;
+		height: 100rpx;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.play,
+	.pause {
+		width: 100rpx;
+		height: 100rpx;
+		&.loading{
+			width: 80rpx;
+			height: 80rpx;
+			animation: rotating 2s linear infinite;
+		}
+	}
+
+	.prevbtn,
+	.nextbtn {
+		width: 40rpx;
+		height: 40rpx;
+	}
+
+	.prevplay {
+		width: 40rpx;
+		height: 40rpx;
+		transform: rotateZ(180deg);
+	}
+
+	.nextplay {
+		width: 40rpx;
+		height: 40rpx;
+	}
+}
+
+.imt-audio.theme2 {
+	background: #fff;
+	border: 1px solid #cecece;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+
+	.top {
+		background: #fff;
+		display: flex;
+		align-items: center;
+		height: 150rpx;
+
+		& > view:nth-child(2) {
+			flex: 1;
+			margin: 0 30rpx;
+
+			.title {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				margin-top: 24rpx;
+				text{
+					font-size: 30rpx;
+					text-align: left;
+					max-width: 100%;
+					@include textoverflow;
+					flex: 1;
+				}
+				
+				.audio-number {
+					font-size: 24upx;
+					line-height: 1;
+					color: #333;
+				}
+			}
+
+			.singer {
+				color: #999;
+				font-size: 26rpx;
+				margin-top: 10rpx;
+				text-align: left;
+				margin-bottom: 18rpx;
+				max-width: 100%;
+				@include textoverflow;
+			}
+		}
+		
+		
+	}
+
+
+	
+
+
+	.cover {
+		width: 120rpx;
+		height: 120rpx;
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: 50%;
+		border: 2px solid #fff;
+		animation-fill-mode: forwards;
+		-webkit-animation-fill-mode: forwards;
+	}
+
+	.cover.on {
+		-webkit-animation: 10s rowup linear infinite normal;
+		animation: 10s rowup linear infinite normal;
+		animation-fill-mode: forwards;
+		-webkit-animation-fill-mode: forwards;
+	}
+	.audio-control-wrapper{
+		width: 150rpx;
+		height: 150rpx;
+		display: flex;
+		align-items:center;
+		justify-content: center;
+		background: #efefef;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.play {
+		width: 80rpx;
+		height: 80rpx;
+		z-index: 99;
+		background: rgba(0, 0, 0, 0.4);
+		border-radius: 50%;
+		&.loading{
+			width: 60rpx;
+			height: 60rpx;
+			animation: rotating 2s linear infinite;
+		}
+	}
+
+	.prevbtn {
+		width: 48rpx;
+		height: 48rpx;
+		margin-right: 40rpx;
+	}
+
+	.nextbtn {
+		width: 48rpx;
+		height: 48rpx;
+		margin-left: 40rpx;
+	}
+}
+
+.imt-audio.theme3 {
+	background: #ccc;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	padding: 40rpx 20rpx;
+	box-sizing: border-box;
+	max-height: 200rpx;
+	position:relative;
+	.top {
+		width: 140rpx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+	}
+
+	.audio-wrapper {
+		display: flex;
+		flex-direction: column; 
+		flex: 1;
+		color: #fff;
+		margin-left: 20rpx;
+
+		.titlebox {
+			display: flex;
+			line-height: 46rpx;
+			margin-bottom: 30rpx;
+			.title {
+				font-size: 30rpx;
+				max-width: 50%;
+				@include textoverflow;
+			}
+
+			.singer {
+				margin-left: 20rpx;
+				font-size: 28rpx;
+				max-width: 50%;
+				@include textoverflow;
+			}
+		}
+	}
+	.slidebox {
+		display: flex;
+		
+		justify-content: space-between;
+		width: 96%;
+		view{
+			&:first-child{
+				font-size: 28rpx;
+			}
+			&:last-child{
+				font-size: 28rpx;
+				text{
+					&:last-child{
+						margin-left: 40rpx;
+					}
+				}
+			}
+		}
+	}
+	/deep/ .uni-slider-tap-area {
+		padding: 0;
+	}
+	/deep/ .uni-slider-wrapper {
+		min-height: 0;
+	}
+	/deep/ .uni-slider-handle-wrapper {
+		height: 4px;
+	}
+	.audio-slider {
+		position: absolute;
+		top: 0;
+		margin: 0;
+		width: 100%;
+		left: 0;
+		padding: 0;
+	}
+	
+
+	.cover {
+		width: 120rpx;
+		height: 120rpx;
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		animation-fill-mode: forwards;
+		-webkit-animation-fill-mode: forwards;
+	}
+
+	.play {
+		width: 80rpx;
+		height: 80rpx;
+		z-index: 99;
+		background: rgba(0, 0, 0, 0.4);
+		border-radius: 50%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		&.loading{
+			width: 60rpx;
+			height: 60rpx;
+			animation: rotating_theme3 2s linear infinite;
+		}
+	}
+}
+
+@keyframes rotating {
+	0% {
+		  transform: rotateZ(0deg)
+	}
+	100% {
+		  transform: rotateZ(360deg)
+	}
+}
+@keyframes rotating_theme3 {
+	0% {
+		  transform: translate(-50%, -50%) rotateZ(0deg)
+	}
+	100% {
+		  transform: translate(-50%, -50%) rotateZ(360deg)
+	}
+}

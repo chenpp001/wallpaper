@@ -1,0 +1,16 @@
+{
+    "id": "cn-6db-4",
+    "name": "夜趣小视频  需要的将来看看",
+    "version": "1.2.2",
+    "description": "手机壁纸图片 壁纸支持微信小程序/uniad奖励广告 支持分销、购买下载、支持用户投稿、vip会员等功能，快手抖音短视频解析",
+    "keywords": [
+        "壁纸、图片、相册"
+    ],
+    "displayName": "壁纸图片，兼容app、h5、微信小程序、支持微信小程序 uniad奖励广告",
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "uni-app前端项目模板"
+        ]
+    }
+}

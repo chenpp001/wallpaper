@@ -1,0 +1,473 @@
+{
+	"pages": [
+		{
+			"path": "pages/client/indexpic",//壁纸首页
+			"style": {
+				"enablePullDownRefresh": true,
+				 "navigationBarTitleText": "",
+				 "navigationBarBackgroundColor":"#363B4D",
+				 "navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/client/index",//默认首页
+			"style": {
+				 "navigationBarTitleText": "",
+				 "navigationBarBackgroundColor":"#363B4D",
+				 "navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/client/miniapp",
+			"style": {
+				 "navigationBarTitleText": "更多服务"
+			}
+		},
+		{
+			"path": "pages/client/member/tougao",
+			"style": {
+				 "navigationBarTitleText": "创作者中心"
+			}
+		},
+		{
+			"path": "pages/client/member/tougaopl",
+			"style": {
+				 "navigationBarTitleText": "管理员批量处理"
+			}
+		},
+		{
+			"path": "pages/client/member/tougaojl",
+			"style": {
+				 "navigationBarTitleText": "记录"
+			}
+		},
+		
+		{
+			"path": "pages/client/webva"
+		},
+		{
+			"path": "pages/client/mytuandui",
+			"style": {
+				 "navigationBarTitleText": "我的团队"
+			}
+		},
+		{
+			"path": "pages/client/member/qrshare",
+			"style": {
+				 "navigationBarTitleText": "分享"
+			}
+		},
+		{
+			"path": "pages/client/pusher",
+			"style": {
+				"navigationBarTitleText": "直播测试"
+				,"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/client/vipcard/index",
+			"style": {
+				 "navigationBarTitleText": "会员卡详情"
+			}
+		},
+		{
+			"path": "pages/client/vipcard/vipcm",
+			"style": {
+				 "navigationBarTitleText": "会员升级"
+			}
+		},
+		{
+			"path": "pages/client/vipcard/recharge",
+			"style": {
+				 "navigationBarTitleText": "余额充值"
+			}
+		},
+		{
+			"path": "pages/client/vipcard/moneylog",
+			"style": {
+				 "navigationBarTitleText": "明细"
+			}
+		},
+		{
+		    "path" : "pages/client/member/tx",
+			"style" : {
+						"navigationBarTitleText": "提现",
+			            "app-plus": {
+			            "titleNView": {
+						"backgroundColor":"#f9f9f9",
+						"buttons": [
+										{
+											"color": "#333",
+											"fontSize": "15px",
+											"width":"90px",
+											"text": "提现记录"
+										}
+									]
+			            			}
+			            		}
+			          }
+		},
+		{
+		    "path" : "pages/client/member/txjl",
+		     "style" : {
+						"navigationBarTitleText": "提现记录",
+						"app-plus": {
+							"titleNView": {
+								"backgroundColor":"#f9f9f9"
+							}
+						}
+					}
+		},
+		{
+			"path": "pages/client/vipcard/integrallog",
+			"style": {
+				 "navigationBarTitleText": "我的积分"
+			}
+		},
+		{
+			"path": "pages/set/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+		    "path" : "pages/set/grzl/grzl",
+		    "style" : {
+				"navigationBarTitleText": "个人资料",
+					"app-plus": {
+					"titleNView": {
+						"backgroundColor":"#f8f8f8"
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/set/gywm/gywm",
+		    "style" : {
+				"navigationBarTitleText": "关于我们",
+					"app-plus": {
+					"titleNView": {
+						"backgroundColor":"#f8f8f8"
+					}
+				}
+			}
+		}
+		,{
+		    "path" : "pages/set/grzl/modname/modname",
+			 "style" : {
+				"navigationBarTitleText": "修改姓名",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor":"#f5f5f5"
+						
+					}
+				}
+			}
+		}
+		,{
+		    "path" : "pages/set/grzl/nc/nc",
+			"style" : {
+				"navigationBarTitleText": "修改昵称",
+					"app-plus": {
+					"titleNView": {
+						"backgroundColor":"#f8f8f8"
+					}
+				}
+			}
+		}
+		,{
+		    "path" : "pages/set/grzl/wx/wx",
+			"style" : {
+				"navigationBarTitleText": "修改微信号",
+					"app-plus": {
+					"titleNView": {
+						"backgroundColor":"#f8f8f8"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/client/vipcard/adviser",
+			"style": {
+				 "navigationBarTitleText": "专属顾问"
+			}
+		},
+		{
+			"path": "pages/client/vipcard/adviserchange",
+			"style": {
+				 "navigationBarTitleText": "更换顾问"
+			}
+		},
+		{
+			"path": "pages/client/mendian",
+			"style": {
+				 "navigationBarTitleText": "切换门店"
+			}
+		},
+		{
+			"path": "pages/client/tuan/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "全部列表",
+				"app-plus": {
+					"titleNView": {
+						"titleColor": "#3a3a3a",
+						"backgroundColor": "#f9f9f9",
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "请输入搜索内容",
+							"autoFocus": false
+						}
+					}
+				}
+			}
+		},
+
+		{
+			"path": "pages/client/tuan/sstp",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "全部列表",
+				"app-plus": {
+					"titleNView": {
+						"titleColor": "#3a3a3a",
+						"backgroundColor": "#f9f9f9",
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "请输入关键字",
+							"autoFocus": false
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/client/tuan/list",
+			"style": {
+				 "navigationBarTitleText": "详情"
+			}
+		},
+		{
+		    "path" : "pages/client/tuan/infotp",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "壁纸图片",
+				"enablePullDownRefresh":false,
+				"navigationStyle": "custom"
+		    }
+		    
+		},
+		{
+			"path": "pages/client/tuan/buy",
+			"style": {
+				 "navigationBarTitleText": "下单"
+			}
+		}, 
+		// {
+		// 	"path": "pages/client/tuan/share",
+		// 	"style": {
+		// 		 "navigationBarTitleText": "顾问分享特惠福利"
+		// 	}
+		// }, 
+		{
+			"path": "pages/client/member/index",
+			"style": {
+				 "navigationBarTitleText": "个人中心"
+			}
+		},
+		// {
+		// 	"path": "pages/client/member/info",
+		// 	"style": {
+		// 		 "navigationBarTitleText": "生日设置"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/client/member/birthday",
+		// 	"style": {
+		// 		 "navigationBarTitleText": "生日礼包记录"
+		// 	}
+		// },
+		{
+			"path": "pages/client/member/feedback",
+			"style": {
+				 "navigationBarTitleText": "问题反馈"
+			}
+		},
+		{
+			"path": "pages/client/member/address",
+			"style": {
+				 "navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/client/member/addressform",
+			"style": {
+				 "navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"path": "pages/client/integral/role",
+			"style": {
+				 "navigationBarTitleText": "赚积分"
+			}
+		},
+		{
+			"path": "pages/client/order/index",
+			"style": {
+				 "navigationBarTitleText": "订单中心"
+			}
+		},
+
+
+		// {
+		// 	"path": "pages/client/order/integralcoupon",
+		// 	"style": {
+		// 		 "navigationBarTitleText": "积分兑换优惠券订单"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/client/order/integralgoods",
+		// 	"style": {
+		// 		 "navigationBarTitleText": "积分兑换商品订单"
+		// 	}
+		// },
+		{
+			"path": "pages/client/order/comment",
+			"style": {
+				 "navigationBarTitleText": "订单评价"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "用户登录",
+		    "navigationBarBackgroundColor":"#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/login/loginwxxcx",
+			"style": {
+				"navigationBarTitleText": "微信小程序登录",
+		    "navigationBarBackgroundColor":"#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/login/logingzh",
+			"style": {
+				"navigationBarTitleText": "微信公众号登录",
+		    "navigationBarBackgroundColor":"#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/login/reg",
+			"style": {
+				"navigationBarTitleText": "",
+		    "navigationBarBackgroundColor":"#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+		    "navigationBarBackgroundColor":"#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/client/tuan/center",
+			"style": {
+				"navigationBarTitleText": "分类",
+		    "navigationBarBackgroundColor":"#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/client/tuan/qsy",
+			"style": {
+				"navigationBarTitleText": "去水印工具",
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+		},
+		
+		// #ifdef APP-PLUS
+		{
+		    "path" : "pages/client/video/video",
+			
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+				"navigationStyle":"custom",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		// #endif
+		{
+			"path": "pages/login/agreement",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		}
+		
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "正在载入",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F5F6FA"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#00c657",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/client/indexpic",
+				"iconPath": "static/icon/yzy_sy.png",
+				"selectedIconPath": "static/icon/yzy_sys.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/client/tuan/center",
+				"iconPath": "static/icon/yzy_fl.png",
+				"selectedIconPath": "static/icon/yzy_fls.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/client/tuan/index",
+				"iconPath": "static/icon/yzy_zys.png",
+				"selectedIconPath": "static/icon/yzy_zyss.png",
+				"text": "列表"
+			},
+			{
+				"pagePath": "pages/client/tuan/qsy",
+				"iconPath": "static/icon/yzy_sc.png",
+				"selectedIconPath": "static/icon/yzy_scs.png",
+				"text": "去水印"
+			},
+			{
+				"pagePath": "pages/client/member/index",
+				"iconPath": "static/icon/yzy_wd.png",
+				"selectedIconPath": "static/icon/yzy_wds.png",
+				"text": "我的"
+			}
+		]
+	},
+	"easycom": {
+	  "autoscan": true,
+	  "custom": {
+			"com-(.*)":"@/components/common/$1.vue",
+			"show-(.*)":"@/components/show/$1.vue",
+			"countdown-(.*)":"@/components/countdown/$1.vue",
+			"sub-(.*)":"@/components/sub/$1.vue",
+			"upload-(.*)":"@/components/upload/$1.vue",
+			"vipcard-(.*)":"@/components/vipcard/$1.vue",
+			"dialog-(.*)":"@/components/dialog/$1.vue",
+			"select-(.*)":"@/components/select/$1.vue",
+			"home-(.*)":"@/pages/client/components/home/$1.vue",
+			"order-(.*)":"@/pages/client/components/order/$1.vue"
+			
+	  }
+	}
+}

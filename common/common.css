@@ -1,0 +1,31 @@
+/* flex布局 */
+.u-f,.u-f-ac,.u-f-ajc{
+	display: flex;
+}
+.u-f-ac,.u-f-ajc{
+	align-items: center;
+}
+.u-f-ajc{
+	justify-content: center;
+}
+.u-f-jsb{
+	justify-content: space-between;
+}
+.u-f1{
+	flex: 1;
+}
+.u-f2{
+	flex: 2;
+}
+.u-f3{
+	flex: 3;
+}
+.u-f-column{
+	flex-direction: column;
+}
+.u-f-l{
+	justify-content:flex-start;
+}
+.u-f-r{
+	justify-content:flex-end;
+}

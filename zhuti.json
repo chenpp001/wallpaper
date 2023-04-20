@@ -1,0 +1,36 @@
+{
+	"data":[
+		{
+			"name":"默认",
+			"fontColor":"rgb(100,103,120)",
+			"pageBg":"rgb(247,247,247)",
+			"menuBg":"#fff",
+			"textColor":"#000"
+		},
+		{
+			"name":"夜间",
+			"fontColor":"#555",
+			"pageBg":"#191919",
+			"menuBg":"#1f1f1f",
+			"textColor":"#555"
+		},{
+			"name":"护眼",
+			"fontColor":"#969696",
+			"pageBg":"#dde7c5",
+			"menuBg":"#333",
+			"textColor":"#202310"
+		},{
+			"name":"淡黄",
+			"fontColor":"#362e23",
+			"pageBg":"#f8e6c0",
+			"menuBg":"#f8e5c5",
+			"textColor":"#6b5d54"
+		},{
+			"name":"粉色",
+			"fontColor":"#4d1e24",
+			"pageBg":"#eec5cb",
+			"menuBg":"#f6dcdf",
+			"textColor":"#7f5b5f"
+		}
+	]
+}
